@@ -10,6 +10,7 @@ public class Main {
 
         var mel = new MotorElectrico();
         var ma = new MotorAdapter(mel);
+        ma.arrancar();
         ma.acelerar();
     }
 }
